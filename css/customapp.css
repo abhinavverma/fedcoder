@@ -368,7 +368,7 @@ a:hover, a:focus{
   color: #95a5a6;
   text-align: center;
   text-shadow: none;
-  filter: alpha(opacity=50);
+  opacity: 0.5;
 }
 .carousel-control.left{
     background: none;
