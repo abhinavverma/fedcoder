@@ -98,10 +98,10 @@ a:hover, a:focus{
 .navbar-default .navbar-collapse{
     border: none;
     box-shadow: none;
-    background: rgb(44, 62, 80);
+    background: rgba(44, 62, 80,0.95);
     width: 100%;
     position: absolute;
-
+    box-shadow: 0 0 1px 0 rgba(255,255,255,0.3);
 }
 
 /* jumbotron */
@@ -110,7 +110,7 @@ a:hover, a:focus{
     -webkit-background-size: cover;
     background-size: cover;
     max-height: 800px;
-    padding: 60px 0;
+    padding: 30px 0 60px 0;
     margin: 0;
 }
 
@@ -465,14 +465,14 @@ a:hover, a:focus{
 /* footer section
 =============================================*/
 footer{
-    padding: 30px 0;
+    padding: 30px 0 0 0;
 }
 .copyright small{
     color: #95a5a6;
     font-size: 13px;
 }
 .social-icons{
-    padding-top: 60px;
+    padding-top:30px;
 }
 .icon-sprite.sprite-ig{
     background-position: left -78px;
@@ -500,7 +500,7 @@ footer{
 }
 /* Ipad devices */
 @media(min-width: 768px){
-    .navbar-default .navbar-collapse{ background: none; }
+    .navbar-default .navbar-collapse{ background: none; box-shadow: none; }
     .navbar-default .navbar-nav>li{ margin-left: 30px;}
     .navbar-default .navbar-nav>li>a{ padding: 9px 0 0 0;}
     .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
